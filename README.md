@@ -2,12 +2,11 @@
 
 ## Purpose
 
-This App adds and removes work events to your calendar for upcoming due dates within 30 days.  
-A 'Work Event' is a Google Calendar event that starts with '💼'.  
-Each work event has 1 or more '💼's in the event's name.  
-The number of '💼's in the name determine the hours to work:  
-
-- ex. '💼💼💼 test1' means, study 3 hours on that day for 'test1'
+- This App adds and removes work events to your calendar for upcoming due dates within 30 days.  
+- A 'Work Event' is a Google Calendar event that starts with '💼'.  
+- Each work event has 1 or more '💼's in the event's name.  
+- The number of '💼's in the name determine the hours to work:  
+  - ex. '💼💼💼 test1' means, study 3 hours on that day for 'test1'
 
 ## Tips
 
