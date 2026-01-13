@@ -36,6 +36,6 @@ The algorithm determines the priority to add work events to the calendar
 
 colourValue = if x is 1 or 2 or 3 or 4 -> 100 * x / (1+2+3+4)  
 timeValue = 100 - (100 * hours / (hoursPerDay * days))  
-availableTime = (availableTimeInDay * (hours / hoursPerDay))  
-penalty = (penaltyMultiplier * workEventsPlaced / (availableTime)  
-Priority = ((colourWeight * colourValue) + (timeWeight * timeValue)) - penalty  
+availableTime = availableTimeInDay * hours / hoursPerDay  
+penalty = penaltyMultiplier * workEventsPlaced / availableTime  
+Priority = (colourWeight * colourValue) + (timeWeight * timeValue) - penalty  
